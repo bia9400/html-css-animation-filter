@@ -1,0 +1,100 @@
+.ex-1-square:hover{
+    background-color: red;
+}
+.ex-2-square:active{
+    width: calc(100%);
+}
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+.ex-4-square:hover{
+    background-color: #F5F5F5;
+}
+.ex-5-square:hover{
+    height: 120px;
+    width: 120px;
+    margin: -10px;
+    
+}
+.ex-5-square:active{
+    margin: 35px;
+    height: 30px;
+    width: 30px;
+}
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
+.ex-7-img:hover{
+    filter: grayscale(100%);
+    filter: saturate(20%);
+    transition-duration: 2s;
+}
+.ex-8-img:hover{
+    filter: grayscale(100%);
+    filter: saturate(20%);
+    border-radius: 20px;
+    transition-duration: 2s;
+}
+.ex-9-img:hover{
+    filter: grayscale(100%);
+    filter: saturate(20%);
+    margin: 0px 0px;
+    width: 577px;
+    border-radius: 20px;
+    transition-duration: 2s;
+}
+@keyframes rotazione {
+   0%{
+    transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.ex-11-icon:hover{
+    animation: rotazionestrana 1.5s linear ;
+}
+
+@keyframes rotazionestrana {
+    0%{
+     transform: rotate(0deg);
+     }
+     90%{
+         transform: rotate(270deg);
+     }
+     100%{
+        transform: rotate(0deg);
+    }
+ }
+ .ex-12-button:hover,
+ .ex-13-button:hover{
+     text-decoration: underline;
+ }
+ .ex-12-button:hover .ex-12-top-white{   
+     animation: buttonmove 1.5s linear;
+ }
+ .ex-12-button:hover .ex-12-bottom-white{   
+    animation: buttonmovereverse 1.5s linear;
+}
+.ex-13-button:hover .ex-13-top-white{   
+    animation: strange-for-real 1.5s linear;
+}
+ @keyframes buttonmove {
+  0%{
+    left: 10%;
+  }
+  50%{
+      left: 70%;
+  }
+ }
+ @keyframes buttonmovereverse {
+    0%{
+        rigth: 20%;
+      }
+      50%{
+          right: 70%;
+      }
+ }
+ @keyframes strange-for-real {
+   
+ }
