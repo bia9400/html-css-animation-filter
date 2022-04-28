@@ -96,5 +96,24 @@
       }
  }
  @keyframes strange-for-real {
-   
+     0%{
+         left: 10%;
+         top: -10px;
+     }
+     25%{
+         left: 80%;
+         top: -10px;
+     }
+     50%{
+         left: 80%;
+         top: 0;
+     }
+     75%{
+         left: 0;
+         top: 0;
+     }
+     100%{
+         left: 0;
+         top: -10px;
+     }
  }
