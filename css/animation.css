@@ -101,16 +101,16 @@
          top: -10px;
      }
      25%{
-         left: 80%;
+         left: 100%;
          top: -10px;
      }
      50%{
-         left: 80%;
-         top: 0;
+         left: 100%;
+         top: 100px;
      }
      75%{
          left: 0;
-         top: 0;
+         top: 10px;
      }
      100%{
          left: 0;
