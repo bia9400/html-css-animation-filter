@@ -79,6 +79,9 @@
 .ex-13-button:hover .ex-13-top-white{   
     animation: strange-for-real 1.5s linear;
 }
+.ex-13-button:hover .ex-13-bottom-white{   
+    animation: strange-for-real-2 1.5s linear;
+}
  @keyframes buttonmove {
   0%{
     left: 10%;
@@ -106,14 +109,36 @@
      }
      50%{
          left: 100%;
-         top: 100px;
+         top: 50px;
      }
      75%{
-         left: 0;
-         top: 10px;
+         left: -10%;
+         top: 50px;
      }
      100%{
-         left: 0;
+         left: -10%;
          top: -10px;
      }
  }
+ @keyframes strange-for-real-2 {
+    0%{
+        right: 20%;
+        bottom: -10px;
+    }
+    20%{
+        right: 80%;
+        bottom: -10px;
+    }
+    50%{
+        right: 80%;
+        bottom: 50px;
+    }
+    70%{
+        right: -10%;
+        bottom: 50px;
+    }
+    100%{
+        right: -10%;
+        bottom: -10px;
+    }
+}
